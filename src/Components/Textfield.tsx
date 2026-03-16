@@ -42,18 +42,22 @@ export const Textfield = (props: TextfieldProps) => {
 
 const styles = StyleSheet.create({
   textfieldContainer: {
-    height: 50,
-    backgroundColor: colors.lighterPurple,
-    marginHorizontal: 15,
-    borderRadius: 5,
-    borderWidth: 2,
+     height: 50,
+    backgroundColor: colors.yellow,
+    marginHorizontal: 8,
+    borderRadius: 20,
+    borderWidth: 5,
     justifyContent: "center",
+
   },
   textfield: {
     flex: 7,
     height: 40,
-    backgroundColor: colors.lighterPurple,
+    backgroundColor: colors.yellow,
     marginHorizontal: 10,
-    fontSize: 14,
+    fontSize: 18,
+    color: colors.brightGreen,
+
+    
   }
 })
