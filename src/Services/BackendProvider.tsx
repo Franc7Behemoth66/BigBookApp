@@ -73,10 +73,7 @@ const BackendProvider = ({ children } : any) => {
       var headers: { [key: string]: string } = {
         'Content-Type': 'application/json',
         'Accept': responseContentType,
-        //'x-api-key': '47a6c331a0a84100a778d40b2a4ae0ce'
-      
-        'x-api-key': '936c8ff4d80a4719bb2cd11a30b569fe' 
-        // my personal API
+        'x-api-key': '47a6c331a0a84100a778d40b2a4ae0ce'
       };
 
       const opts = {
